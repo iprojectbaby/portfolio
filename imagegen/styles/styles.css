@@ -142,7 +142,7 @@ h4{
   }
   .main{
     width: 1130px;
-    max-width: 95%;
+    max-width: 100%;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -191,8 +191,8 @@ button:hover{
 }
 .title{
     color: #000;
-    font-size: 75px;
-    width: 1130px;
+    font-size: 70px;
+    width: 1000px;
     margin: 30px auto;
     text-align: center;
 }
@@ -327,4 +327,31 @@ footer p:nth-child(2){
     color:#da0a4c ;
     bottom: 35px;
     font-size: 14px;
+}
+@media (max-width: 725px){
+    .about-text{
+        width: 400px;
+    }
+    .about-text h2{
+        font-size: 45px;
+        text-align: center;
+    }
+    .title{
+        font-size: 35px;
+        width: 500px;
+    }
+    .box{
+        flex-direction: column;
+    }
+    .main{
+        flex-direction: column;
+    }
+    .contact-me p{
+        font-size: 20px;
+    }
+    .end{
+        position: absolute;
+        font-size: 12px;
+        text-align: center;
+    }
 }
